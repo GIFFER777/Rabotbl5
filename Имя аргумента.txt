@@ -1,0 +1,7 @@
+const sayHelloTo = function(name) {
+  console.log("Привет, " + name + "!");
+};
+
+sayHelloTo("Anton"); // Output: Hello, Anton!
+
+sayHelloTo("Tuco Salamanca"); // Output: Hello, Tuco Salamanca!

@@ -1,0 +1,13 @@
+function askSomeQuestion(question, yes, no) {
+  if (confirm(question)) {
+    yes();
+  } else {
+    no();
+  }
+}
+
+askSomeQuestion("Хотите ли вы услышать о недавнем открытии?", function () {
+  alert("Вы согласились.");
+}, function () {
+  alert("Вы не согласны.");
+});

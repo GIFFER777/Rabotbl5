@@ -1,0 +1,13 @@
+function fifthLetter(name) {
+  if (name.length < 5) {
+    return "Имя слишком короткое!";
+  }
+
+  return "Пятая буква вашего имени: " + name[4];
+}
+
+console.log(fifthLetter("Николай"));
+console.log(fifthLetter("Ник"));
+console.log(fifthLetter("Андрей"));
+console.log(fifthLetter("Алина"));
+console.log(fifthLetter("Александр"));

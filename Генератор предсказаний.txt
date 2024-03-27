@@ -1,0 +1,22 @@
+const randomPlanets = ["Меркурий","Венера","Земля","Марс","Юпитер","Сатурн","Уран","Нептун",];
+
+randomPlanets.getRandomElement = function () {
+  return this[Math.floor(Math.random() * this.length)];
+};
+
+const randomGalaxies = ["Андромеда","Большой Пёс","Лебедь","Весы","Скорпион","Орион","Волопас",];
+
+randomGalaxies.getRandomElement = function () {
+  return this[Math.floor(Math.random() * this.length)];
+};
+
+const randomPrediction = ["Бесспорно", "Вероятнее всего", "Пока не ясно", "Даже не думай"];
+const randomPredictionIndex = Math.floor(Math.random() * randomPrediction.length);
+
+const randomPlanet = randomPlanets.getRandomElement();
+const randomGalaxy = randomGalaxies.getRandomElement();
+
+const fortune =
+  "Ответ на ваш вопрос: " + randomPrediction[randomPredictionIndex] +", потому что " + randomPlanet +" находится в созвездии " + randomGalaxy +".";
+
+console.log(fortune);

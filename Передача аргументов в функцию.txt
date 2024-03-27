@@ -1,0 +1,6 @@
+function sayHelloTo(name) {
+  console.log("Привет, " + name + "!");
+}
+sayHelloTo("Dog"); // Output: Hello, Dog!
+
+sayHelloTo("Bruh"); // Output: Hello, Bruh!

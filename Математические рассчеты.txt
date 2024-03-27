@@ -1,0 +1,11 @@
+function add(a, b) {
+  return a + b;
+}
+
+function multiply(a, b) {
+  return a * b;
+}
+const result = multiply(36325, 9824);
+const finalResult = add(result, 777);
+
+console.log(finalResult);

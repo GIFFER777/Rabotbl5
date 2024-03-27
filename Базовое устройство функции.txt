@@ -1,0 +1,5 @@
+function ourFirstFunction() {
+  console.log("Привет, Мир!");
+}
+
+ourFirstFunction();

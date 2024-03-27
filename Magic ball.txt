@@ -1,0 +1,11 @@
+const getFullPrediction = function () {
+  const randomString =
+    "Ответ на ваш вопрос: " + pickRandomWord(randomPredictions) + ", потому что " + pickRandomWord(randomPlanets) + " находится в созвездии " +
+    pickRandomWord(randomGalaxies) +
+    ".";
+  return randomString;
+};
+
+console.log(getFullPrediction());
+console.log(getFullPrediction());
+console.log(getFullPrediction());
